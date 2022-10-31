@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/images"
+    android:background="@drawable/pastel"
     tools:context=".MainActivity"
     tools:ignore="ExtraText">
 
@@ -13,8 +13,8 @@
         android:layout_width="match_parent"
         android:layout_height="52dp"
         android:gravity="center"
-        android:text="welcome to my application"
-        android:textColor="@color/white"
+        android:text="WELCOME TO MY APPLICATION "
+        android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,21 +23,21 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.116" />
 
-
     <Button
         android:id="@+id/buttonLogin"
         android:layout_width="411dp"
         android:layout_height="62dp"
         android:backgroundTint="@color/material_on_surface_stroke"
+        android:gravity="center"
         android:onClick="Login"
         android:text="@string/login"
         android:textColor="#4E342E"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.591" />
+        app:layout_constraintVertical_bias="0.556" />
 
     <Button
         android:id="@+id/buttonRegister"
@@ -52,7 +52,7 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.839" />
+        app:layout_constraintVertical_bias="0.959" />
 
     <EditText
         android:id="@+id/editTextPersonName"
@@ -107,17 +107,18 @@
 
     <TextView
         android:id="@+id/textView_signup"
-        android:layout_width="402dp"
-        android:layout_height="33dp"
+        android:layout_width="410dp"
+        android:layout_height="34dp"
         android:gravity="center"
         android:text="Don't have an account? CLICK HERE TO SIGN UP "
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toTopOf="@+id/buttonRegister"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
+
         app:layout_constraintTop_toBottomOf="@+id/buttonLogin"
-        app:layout_constraintVertical_bias="0.771" />
+        app:layout_constraintVertical_bias="1.0" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

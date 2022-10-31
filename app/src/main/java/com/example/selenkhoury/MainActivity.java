@@ -8,6 +8,7 @@ import android.annotation.SuppressLint;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.os.Bundle;
 import android.view.Menu;
