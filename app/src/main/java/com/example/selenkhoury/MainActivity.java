@@ -8,17 +8,20 @@ import android.annotation.SuppressLint;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Paint;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     private EditText editTextEmailAddress, editTextPassword, editTextPersonName;
     private Button buttonLogin, buttonRegister;
+    private TextView textView , textView_signup;
 
     private final String valid_mail = "admin";
     private final String valid_password = "1";
@@ -38,6 +41,8 @@ public class MainActivity extends AppCompatActivity {
         editTextPersonName = findViewById(R.id.editTextPersonName);
         buttonLogin = findViewById(R.id.buttonLogin);
         buttonRegister = findViewById(R.id.buttonRegister);
+        textView = findViewById(R.id.textView);
+        textView_signup = findViewById(R.id.textView_signup);
         // creates a preferences file ,
         preferences = getSharedPreferences("Userinfo", 0);
 
@@ -47,6 +52,12 @@ public class MainActivity extends AppCompatActivity {
     /*
     this method loads the menu design into this activity
      */
+    //load option menu from an activity (linking xml option menu with the java activity)
+    /*
+    this method loads the menu design into this activity
+     */
+    //
+
     @Override
     public boolean onCreateOptionsMenu(@NonNull Menu menu) {
         getMenuInflater().inflate(R.menu.menu_example, menu);
