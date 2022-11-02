@@ -31,7 +31,7 @@
            android:layout_height="wrap_content"
            android:orientation="vertical"
            android:gravity="center"
-           android:layout_gravity="center_vertical|center_horizontal"
+           android:layout_gravity="center_vertical|center_horizontal"></LinearLayout>
 
 
    </GridLayout>
