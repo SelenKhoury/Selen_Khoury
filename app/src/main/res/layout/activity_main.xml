@@ -43,7 +43,7 @@
                 <ImageView
                     android:layout_width="90dp"
                     android:layout_height="90dp"
-                    android:src="@drawable/asian" />
+                    android:src="@drawable/asian"/>
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
@@ -65,7 +65,7 @@
                 <ImageView
                     android:layout_width="90dp"
                     android:src="@drawable/korean"
-                    android:layout_height="90dp" />
+                    android:layout_height="90dp"/>
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>

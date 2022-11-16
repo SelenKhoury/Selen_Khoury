@@ -39,11 +39,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         editTextEmailAddress = findViewById(R.id.editTextEmailAddress);
         editTextPassword = findViewById(R.id.editTextPassword);
-        editTextPersonName = findViewById(R.id.editTextPersonName);
-        buttonLogin = findViewById(R.id.buttonLogin);
+       // editTextPersonName = findViewById(R.id.editTextPersonName);
+      //  buttonLogin = findViewById(R.id.buttonLogin);
         buttonRegister = findViewById(R.id.buttonRegister);
         textView = findViewById(R.id.textView);
-        textView_signup = findViewById(R.id.textView_signup);
+       // textView_signup = findViewById(R.id.textView_signup);
         // creates a preferences file ,
         preferences = getSharedPreferences("Userinfo", 0);
 
