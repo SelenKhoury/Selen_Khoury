@@ -152,6 +152,7 @@ public class MainActivity extends AppCompatActivity {
             startActivity(i);
         }
     */
+
         // this line gets the registered email and password , in case no user was registered empty string is returned
         String input_mail =editTextEmailAddress.getText().toString();
         String input_password = editTextPassword.getText().toString();
@@ -166,6 +167,7 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this,"ERROR! Email or Password not correct",Toast.LENGTH_SHORT).show();
         }
     }
+
 
     @SuppressLint("CommitPrefEdits")
     public void Register(View view) {
