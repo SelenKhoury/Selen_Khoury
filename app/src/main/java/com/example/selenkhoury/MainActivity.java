@@ -8,8 +8,8 @@ import android.annotation.SuppressLint;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
-/* import android.graphics.Canvas;
-import android.graphics.Paint;*/
+import android.graphics.Canvas;
+import android.graphics.Paint;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -70,6 +70,7 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
             case R.id.search: {
+                Toast.makeText(MainActivity.this, "LogIn clicked", Toast.LENGTH_SHORT).show();
                 Intent x = new Intent(this, RegisterActivity.class);
                 startActivity(x);
                 break;
