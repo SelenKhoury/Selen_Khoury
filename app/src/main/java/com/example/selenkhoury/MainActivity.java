@@ -69,6 +69,11 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
+            case R.id.search: {
+                Intent x = new Intent(this, RegisterActivity.class);
+                startActivity(x);
+                break;
+            }
             case R.id.settings_menu:
                 Toast.makeText(MainActivity.this, "Settings clicked", Toast.LENGTH_SHORT).show();
                 break;
