@@ -29,7 +29,6 @@ public class MainActivity extends AppCompatActivity {
 
     SharedPreferences preferences;
 
-
    /* EditText editTextEmailAddress, editTextPassword, editTextPersonName;
     Button buttonLogin, buttonRegister;
   */
