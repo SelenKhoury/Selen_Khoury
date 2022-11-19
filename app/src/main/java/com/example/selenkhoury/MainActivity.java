@@ -69,12 +69,16 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.search: {
-                Toast.makeText(MainActivity.this, "LogIn clicked", Toast.LENGTH_SHORT).show();
+            case R.id.Person:
+                {Toast.makeText(MainActivity.this, "LogIn clicked", Toast.LENGTH_SHORT).show();
+                Intent z = new Intent(this, RegisterActivity.class);
+                startActivity(z);
+                break;}
+           /* case R.id.search: {
                 Intent x = new Intent(this, RegisterActivity.class);
                 startActivity(x);
                 break;
-            }
+            }*/
             case R.id.settings_menu:
                 Toast.makeText(MainActivity.this, "Settings clicked", Toast.LENGTH_SHORT).show();
                 break;
